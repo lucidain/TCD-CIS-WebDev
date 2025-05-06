@@ -3,26 +3,27 @@
   <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width" />
-	<title>My test page</title>
+	<link href="style.css" rel="stylesheet">
+    <title>index.html</title>
   </head>
   <body>
 	<figure>
         <picture>
             <source
               srcset="https://github.com/lucidain/TCD-CIS-WebDev/blob/main/webdev06/tcdu1000px.jpg?raw=true"
-              media="(orientation: portrait)" type="desktop"/>
+              media="(orientation: landscape)"/>
               <source
               srcset="https://github.com/lucidain/TCD-CIS-WebDev/blob/main/webdev06/tcdu1000px.png?raw=true"
-              media="(orientation: portrait)" type="desktop"/>
+              media="(orientation: landscape)"/>
               <source
               srcset="https://github.com/lucidain/TCD-CIS-WebDev/blob/main/webdev06/tcdu500px.jpg?raw=true"
-              media="(max-width: 600px)" type="mobile"/>
+              media="(orientation: portrait)"/>
               <source
               srcset="https://github.com/lucidain/TCD-CIS-WebDev/blob/main/webdev06/tcdu500px.png?raw=true"
-              media="(max-width: 600px)" type="mobile"/>
-            <img src=" N/A N/A N/A" alt="" />
+              media="(orientation: portrait)"/>
+            <img src="https://github.com/lucidain/TCD-CIS-WebDev/blob/main/webdev06/fallback.jpg?raw=true" alt="braaaains" />
           </picture>
-        <figcaption>An elephant at sunset</figcaption>
+        <figcaption>TCD Students</figcaption>
     </figure>
   </body>
 </html>
